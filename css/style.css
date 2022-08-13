@@ -1,0 +1,628 @@
+@charset "utf-8";
+/* CSS Document */
+$active=#FDA30E;
+
+i{
+	color:#FDA30E;
+	font-size:16px;
+}
+input{
+	border:none;
+	border:none;
+	
+}
+.logo-icon-area{
+	height:50px;
+	
+}
+.slider_box_right{
+	height:400px;
+
+	
+}
+.lool_image{
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+.banner{
+	background-color:black;
+	
+}
+
+.cart_box{
+    color: #FFFFFF;
+    padding-left: 0px;
+    text-align: center;
+    background-color: #FDA30E;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 72px;
+    height: 72px;
+}
+#menu{
+	width:100%;
+}
+.social_icon{
+	font-size:30px;
+	line-height:50px;
+	color:#848484;
+	
+}
+.social_icon i:hover{
+	color:#FDA30E;
+	transform: rotate(180deg);
+	
+}
+.input_edit input{
+	border-radius: 0px;
+	font-size: 14px;
+}
+.navbar-left button{
+	border-radius: 0px;
+}
+.option_menu{
+	border-radius: 0px;
+}
+.menu_area{
+	background-color:#222222;
+	
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color:#FDA30E;
+}
+.navbar-inverse{
+	border:none;
+	background-color:#222222;
+	margin:10px;
+	outline:none
+}
+
+/*NEW ARRIVAL AREA CSS START FROM NOW*/
+span{
+	color:#FDA30E;
+	font-size:36px;
+	text-align:center;
+}
+.arrival_content h1, .arrival_content p{
+	text-align:center;
+	margin:35px 0;
+}
+.upper_box{
+	border:1px solid #A9A9A9;
+	height:200px;
+	margin-bottom:30px;
+}
+.upper_box img{
+	padding:85px 10px;
+	display:inline;
+	float:left;
+}.upper_box h4{
+	padding:17px 0px;
+	display:inline;
+	float:left;
+	}
+.upper_box button{
+	display: inline;
+    float: left;
+    margin-top: 34px;
+    text-align: center;
+    background-color: #FDA30E;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    margin-left: 50px;
+	position: relative;
+	
+}
+.upper_box button:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 4px solid #FDA30E;
+	-webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.upper_box button:hover:before{
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+}
+
+
+.lower_box{
+	border:1px solid #A9A9A9;
+	height:226px;
+}
+.lower_box button{
+	display: inline;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #FDA30E;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    margin-left: 50px;
+}
+.lower_box button:hover{
+	background-color:#FDA30E;
+}
+.button_border{
+	border:3px solid #FDA30E;
+	
+}
+.lower_box img{
+	padding:85px 10px;
+	display:inline;
+float:left;
+}
+.lower_box button{}
+
+/* offer area start from here */
+.offer_area{
+    margin-top: 95px;
+    background-color: #F7F7F7;
+    padding-left: 0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.mobile_img{
+	padding-left:0px;
+	padding-right:0px;
+}
+.text-box1{
+	padding: 27px 20px;
+}
+.text_box2{
+   padding: 41px 35px;
+
+}
+.watch_section{
+	padding-top:16px;
+	padding-left:10px;
+}
+.leg_images{
+	padding-left: 0px;
+}
+/*START PRODUCT PAGE FROM HERE */
+.latest_design{
+	text-align:center;
+	margin-top:90px;
+	color:#A9A9A9;
+}
+.latest, .special, .collection{
+	border-bottom:2px solid #A9A9A9;
+	margin:0px 5px;
+	
+}
+.latest:hover, .special:hover, .collection:hover{
+	border-bottom:2px solid #FDA30E;
+	color:#222222;
+}
+/*-- START PRODUCT LIST  FROM HERE-*/
+.item_product{
+	padding-top:50px;	
+}
+.item_box{
+	box-shadow: 0px 0px 6px 0px #868686;
+  	position: relative;
+  	    height: 443px;
+}
+.item_info{
+	text-align: center;
+	margin:60px;
+}
+.item_box:hover img{
+	transform: rotateY(180deg);
+	transition: all 1s;
+}
+.quickview{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	color:#FFFFFF;
+	background-color: black;
+	box-sizing: border-box;
+	
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 26px;
+	opacity: 0;
+	top:0px;
+	font-weight: 700;
+	left: 0;
+
+}
+.item_box:hover .quickview{
+	top:50%;
+	opacity: 1;
+	transition: all 1s;
+
+}
+.caption p{
+	text-align: center;
+	color: green;
+	font-weight: 700;
+}
+.caption h3{
+	text-align: center;
+	margin-top: -2px;
+}
+
+.btn-md{
+	position: absolute;
+
+}
+.quickview:hover{
+	
+	color: #ffffff;
+}
+.item_box:hover{
+	background-color: #F7F7F7;
+}
+.pagination ul{
+	text-align: center;
+}
+.item_box h4{
+    font-size:18px;
+    
+    text-decoration: none;
+	text-align:center;
+}
+.item_box a{
+	text-decoration: none;
+	color: #FDA30E;
+
+}
+.item_price {
+    color: #000;
+    font-size: 23px;
+	text-align:center;
+}
+.first_row_product{
+	padding-top: 80px;
+}
+.info_product_price{
+	text-align:center;
+}
+del{
+	text-align:center;
+}
+.item_box button{
+	border-radius: 0px;
+    background-color: #fda30e;
+    text-align: center;
+    border: none;
+    left: 66px;
+    width: calc(100% - 132px);
+    margin-top: -2px;
+
+}
+.item_box:hover {
+	transform: scale(1.0);
+	transition: all 1s;
+	background-color:rgba(255,255,154 .8);
+	visibility: visible;
+	top:50%;
+}
+.item_box:last-child{
+	margin: 0px 0px;
+}
+.product-new-top{
+    background: #868686 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    right: 0;
+    padding: 0 10px 1px;
+    position: absolute;
+    text-transform: lowercase;
+    top: 0;
+    font-size: 18px;
+    z-index: 10;
+}
+.quick_view{
+	display:hidden;
+}
+.inner-men-cart-pro {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    transition: all 0.5s ease-out 0s;
+    visibility: hidden;
+}
+.inner-men-cart-pro .link-product-add-cart {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: all 0.5s ease-out 0s;
+}
+/*-  PARALAX DESIGN START FROM HERE */
+.parallax {
+	margin-top: 80px;
+    background: url(../images/new4.jpg) no-repeat center;
+    background-color: #cccccc;
+    
+}
+.buy{
+	color: #FDA30E;
+    font-size: 23px;
+    text-transform: uppercase;
+  padding-top: 80px;
+    margin-top: 80px;
+    margin: 83px 0 0;
+
+}
+.icon1{
+	padding:80px 0px;
+}
+.icon1 i{
+	font-size: 75px;
+	color: #FDA30E;
+	padding-left: 33%;
+}
+.icon1 h4{
+	color: #FFFFFF;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 40px 0 20px;
+    text-align: center;
+    
+}
+.icon1 p{
+	text-align:center;
+	color:white;
+}
+	/* FOOTER AREA START FROM NOW */
+
+.footer_section{
+	padding-top: 80px;
+}
+.footer_menu input{
+	border-radius: 0px;
+	margin-top: 15px;
+}
+.footer_menu button{
+	border-radius: 0px;
+	background-color:#FDA30E;
+	margin-top: 15px;
+}
+
+
+.footer_below{
+	padding-top: 50px;
+}
+.footer_first_column p{
+	line-height:200%;
+}
+.footer_second_column ul li a{
+	text-decoration: none;
+	text-align: left;
+	line-height: 25px;
+	color:#5A5A5A;
+}
+.footer_second_column ul li a:hover{
+	color:#FDA30E;
+}
+.footer_second_column ul li{
+	list-style-type: none;
+	text-align: left;
+}
+.footer_second_column span{
+	font-size: 25px;
+	text-align: center;
+	padding-left: 40px;
+}
+.row i{
+	font-size: 20px;
+	
+}
+.map{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px: 
+	background-color:#DFDFDF;
+	margin-bottom: 30px;
+	  background-image: url('images/map.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*COPYRIGHT AREA START FROM NOW*/
+.footer{
+	text-align: center;
+	margin-top: 14px;
+	color:white;
+}
+.footer{
+	background-color: black;
+}
+
+/* CONTACT AREA START FROM HERE */
+.address{
+	margin-top: 50px;
+}
+.image1{
+	position: relative;
+}
+.address_content i, .address_content2 i, .address_content3 i {
+	font-size: 32px;
+	color: white;
+}
+.address_content p, .address_content2 p, .address_content3 p{
+	color: white;
+	text-align: center;
+}
+.address_content{
+	position: absolute;
+	top:25%;
+	text-align: center;
+	left: 14%;
+}
+.image2, .image3{
+	position: relative;
+}
+
+.address_content2{
+	position: absolute;
+	top:25%;
+	text-align: center;
+	left: 34%;
+}
+.address_content3{
+	position: absolute;
+	top:25%;
+	text-align: center;
+	left: 34%;
+}
+/*<!--    Map area start from now -->*/
+.viewon{
+	margin: 50px 0;
+	text-align: center;
+}
+/*--------------------------- 
+ 		Single Page Design
+-----------------------------
+*/
+.img_border{
+	border:1px solid #A3A3A3;
+}
+.single{
+	padding-top: 100px;
+}
+.producttitle{
+	color:#FDA30E;
+}
+.description h4{
+	color: #A3A3A3;
+}
+.formami{
+	margin-left: 0;
+}
+.pagination span{
+	font-size:15px;
+	text-align:center;
+	
+}
+.pagination{
+	margin-left: 41%;
+    margin-top: 4%;
+}
+.buto button{
+	display: block;
+	margin-top: 150px;
+	border-radius: 0px;
+	background-color: #FDA30E;
+	color: #FFFFFF;
+	border: none;
+}
+
+/*
+---------------------
+Mens page css
+--------------------*/
+.menbutton{
+	width: 100%;
+}
+.categories button{
+	text-align: left
+}
+.categories{
+	border:1px solid  #A3A3A3;
+}
+button:nth-child(2n){
+	background-color: #222222;
+	border-radius: 0px;
+	color:#FFFFFF;
+}
+button:nth-child(2n+1){
+	background-color: #FDA30E;
+	border-radius: 0px;
+}
+.categories h3{
+	color: #FDA30e;
+	text-align: center;
+}
+.product_compare h3{
+	color: #FDA30e;
+	text-align: center;
+}
+.product_compare{
+	padding-left: 45px;
+}
+.nwpara{
+	padding-top:50px;
+}
+.mensp p{
+	line-height: 45px;
+}
+/*
+------------------------------------
+		Electronics Start
+---------------------------------*/
+
+.addde:hover img{
+	transform: scale(1.1, 1.1);
+	   
+	overflow: hidden;
+}
+.addde{
+	position: relative;
+	overflow: hidden;
+}
+.addde img{
+	width: 100%;
+	transition: all 1s ease-in-out;
+}
+.addde:hover img {
+  transform: scale(1.5);
+}
+/*
+---------------------------------
+CONTACT FORM 
+----------------------------------
+*/
+.looool h2{
+	text-align: center;
+	color: #FDA30e;
+	font-size: 30px;
+}
+.form-group input{
+	border-radius:0;
+}
+textarea{
+	resize: none;
+}
+.submit button{
+	
+	background-color: #FDA30E;
+	color: #FFFFFF;
+}
+.submit{
+	padding-top: 20px;
+}
+/*-----------------------------------
+SIGNUP AREA START FROM HERE
+---------------------------------*/
+.singup{
+	background-color: #e9c8c0;
+	
+
+}
+.usertext h2{
+	text-align: center;
+	color: #FFFFFF;
+}
+.textbor{
+	padding-bottom: 80px;
+	border-right:2px solid #FFFFFF;
+}
